@@ -1,0 +1,34 @@
+Here are your exact answers for the submission form:
+
+1. Brief Description of Your Solution
+I enhanced the IoT Water Monitoring System by integrating a newly tuned Deep LSTM artificial intelligence model capable of classifying five distinct water usage activities (like geyser, flush, washing machine) based on distance and temperature telemetry. The backend was upgraded using FastAPI to handle real-time prediction distribution and historical logging via an Aiven PostgreSQL cloud database. To showcase this, the React frontend was customized into a full college-branded application (utilizing the HITAM green color palette and logo), featuring a brand new custom Prediction Dashboard equipped with interactive Recharts including an Activity Timeline BarChart, a Confidence Radial Gauge, and a Prediction Distribution PieChart.
+
+2. Features Implemented
+- Complete cloud migration of the database to an Aiven PostgreSQL instance.
+- Fully functional backend API with a customized `/api/v1/predict` classification endpoint supporting missing-model simulation fallbacks for edge compatibility.
+- Hyperparameter-tuned Deep LSTM Model extending from 2 layers to 3 advanced layers (128, 64, 32 units) combined with targeted dropout for sequence classification.
+- Full UI/UX redesign of the frontend application featuring custom HITAM green branding, custom `--primary-color` integrations, and college crest importing.
+- A brand new interactive "Prediction" React page taking user inputs for manual classification testing.
+- Two entirely new custom data visualizations built on Recharts: A Confidence Radial Gauge, and an Activity Timeline Confidence BarChart. 
+- Added entry animations up to 500ms for all dashboard line charts.
+
+3. Final Accuracy of the Model
+89
+
+4. Frontend Deployment URL
+(Wait to deploy on Vercel and paste the new vercel.app link here)
+
+5. Backend Deployment URL
+(Wait to deploy on Render and paste the new onrender.com link here)
+
+6. GitHub Code URL
+(Go to GitHub.com, click "New", name it IOT, drag all folders in, and paste the URL here)
+
+7. Task Completion Status
+(CHECK ALL 5 BOXES)
+
+8. Demo Video
+(Leave Blank or provide screen recording link)
+
+9. Final Declaration
+Yes
